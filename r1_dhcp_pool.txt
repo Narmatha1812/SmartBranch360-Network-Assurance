@@ -1,0 +1,35 @@
+Pool EMPLOYEE :
+ Utilization mark (high/low)    : 100 / 0
+ Subnet size (first/next)       : 0 / 0 
+ Total addresses                : 254
+ Leased addresses               : 7
+ Excluded addresses             : 4
+ Pending event                  : none
+
+ 1 subnet is currently in the pool
+ Current index        IP address range                    Leased/Excluded/Total
+ 10.10.10.1           10.10.10.1       - 10.10.10.254      7    / 4     / 254
+
+Pool GUEST :
+ Utilization mark (high/low)    : 100 / 0
+ Subnet size (first/next)       : 0 / 0 
+ Total addresses                : 254
+ Leased addresses               : 1
+ Excluded addresses             : 4
+ Pending event                  : none
+
+ 1 subnet is currently in the pool
+ Current index        IP address range                    Leased/Excluded/Total
+ 10.10.20.1           10.10.20.1       - 10.10.20.254      1    / 4     / 254
+
+Pool MANAGEMENT :
+ Utilization mark (high/low)    : 100 / 0
+ Subnet size (first/next)       : 0 / 0 
+ Total addresses                : 254
+ Leased addresses               : 1
+ Excluded addresses             : 4
+ Pending event                  : none
+
+ 1 subnet is currently in the pool
+ Current index        IP address range                    Leased/Excluded/Total
+ 10.10.99.1           10.10.99.1       - 10.10.99.254      1    / 4     / 254
