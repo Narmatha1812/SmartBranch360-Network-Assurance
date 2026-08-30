@@ -1,0 +1,6 @@
+ip nat outside
+ ip nat inside
+ ip nat inside
+ ip nat inside
+ ip nat inside
+ip nat inside source list 1 interface GigabitEthernet0/0 overload
