@@ -1,0 +1,7 @@
+ Extended IP access list GUEST-ACL
+    permit udp any eq bootpc any eq bootps (3 match(es))
+    deny ip 10.10.20.0 0.0.0.255 10.10.30.0 0.0.0.255 (3 match(es))
+    deny ip 10.10.20.0 0.0.0.255 10.10.99.0 0.0.0.255 (2 match(es))
+    permit ip 10.10.20.0 0.0.0.255 any (4 match(es))
+    permit udp 10.10.20.0 0.0.0.255 host 10.10.30.10 eq domain
+    permit tcp 10.10.20.0 0.0.0.255 host 10.10.30.10 eq domain
