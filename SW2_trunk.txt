@@ -1,5 +1,5 @@
  Port        Mode         Encapsulation  Status        Native vlan
-Fa0/24      on           802.1q         trunking      1
+Fa0/24      on           802.1q         trunking       1
 
 Port        Vlans allowed on trunk
 Fa0/24      10,20,30,99
